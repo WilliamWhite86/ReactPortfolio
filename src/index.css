@@ -82,7 +82,7 @@ a:link {
 }
 
 .footer {
-    position:absolute;
+    position: fixed;
     left:0;
     bottom:0;
     right:0;
@@ -90,5 +90,9 @@ a:link {
 
 button {
     margin-top: 15px;
+}
+
+nav {
+    margin-bottom: 10px;
 }
 

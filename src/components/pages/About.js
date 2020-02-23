@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfilePicture from '../photos/profile.jpg';
+import Resume from '../photos/WilliamWhiteResume.pdf';
 
 function About() {
     return (
@@ -26,6 +27,14 @@ function About() {
                                 </p>
                                 </div>
                             </div>
+                            <div className="contacts">
+                <p className="text-light">William White</p>
+                <p className="text-light">207 449 6281</p>
+                <p><a href="mailto:william.white86@gmail.com">william.white86@gmail.com</a></p>
+                <p><a href="https://github.com/WilliamWhite86">GitHub Profile</a></p>
+                <p><a href="https://www.linkedin.com/in/williamwhite86/">Linkedin Profile</a></p>
+                <p><a href={Resume}>Resume</a></p>
+            </div>
                         </div>
                     </div>
                 </div>
